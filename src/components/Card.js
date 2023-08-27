@@ -21,13 +21,13 @@ export default function Card(props){
                 {name && <h2 className="name">{name}</h2>}
                 {post && <p className="name">{post}</p>}
                 <h3 className="uni">{props.uni}</h3>
-                <div className="btn--align">
-                    {
-                        buttonTxt && <button className="btn">
-                            <span className="btn--text">{buttonTxt}</span>
-                        </button>
-                    }
-                </div>
+                {buttonTxt && (
+                    <div className="btn--align">
+                            <button className="btn">
+                                <span className="btn--text">{buttonTxt}</span>
+                            </button>
+                    </div>
+                )}
             </div>
         </div>
     )

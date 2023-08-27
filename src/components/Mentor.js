@@ -27,7 +27,7 @@ export default function Mentor(){
 
     return(
         <div className="mentors">
-            <h2>Meet the mentors</h2>
+            <h2>Meet your mentors</h2>
             <section className="cards-list">
                 {mentorCards}
             </section>

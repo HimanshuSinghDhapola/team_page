@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-image: linear-gradient(to bottom, #0f172a, #0e1424, #0c111e, #090d18, #060911);
+}
